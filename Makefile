@@ -8,7 +8,7 @@ all: graph
 graph: $(OBJECTS_MAIN) 
 	$(CC) $(FLAGS) -o graph $(OBJECTS_MAIN) 
 
-main.o: ../../Documents/NetBeansProjects/Ex4_graphs/main.c  graphs.h
+main.o: main.c  graphs.h
 	$(CC) $(FLAGS) -c main.c 
 
 
